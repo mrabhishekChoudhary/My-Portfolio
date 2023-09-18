@@ -1,0 +1,210 @@
+body{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    background-color: #e5eaf5;
+}
+ul{ 
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #bcdded;
+    list-style-type: none;
+    overflow: hidden;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+}
+ul.navbar li{
+    display: inline-block;
+    margin-top:20px ;
+    margin-right: 10px;
+}
+ul.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid transparent; 
+    border-radius: 20px; 
+    transition: border-color 0.5s ease;
+    transition: transform 0.5s ease;
+}
+ul.navbar li i {
+    margin-right: 10px; 
+}
+.first_container{
+    background-color: #bcdded;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+.me{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    width: fit-content;
+    padding: 50px;
+    margin: 200px auto 0 auto;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+    background-color: rgb(211, 211, 211);
+    letter-spacing: 5px;
+    color: #66BFBF;
+}
+.first_description{
+    margin: 50px auto 100px ;
+    font-family: 'Quintessential', cursive;
+    color: #a0a09a;
+    border-radius: 10px 0 10px 0;
+    background-color: #e5eaf5;
+    width: fit-content;
+    box-shadow: -10px 10px 10px rgb(167, 165, 165);
+    letter-spacing: 25px;
+}
+.second_container{
+    background-color: #e5eaf5;
+    height: auto;
+    width: 100%;
+}
+
+.mineImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 100px;
+    box-shadow: -10px 10px 10px #514e4e;
+}
+.description{
+    width: 30%;
+    height:auto;
+    line-height: 1.5;
+    margin:50px auto 100px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    border-radius: 10px 100px / 120px;
+    padding: 35px;
+    background-color: #ffaaab;
+    box-shadow: 10px 10px 10px grey;
+}
+.first_cloud{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: 70px;
+    top: 100px;
+}
+.second_cloud{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    right: 70px;
+    top: 330px;
+}
+.underlineSpan{
+    text-decoration: underline;
+    text-decoration-color: #fbe3e8;
+}
+.computer-engineer_img{
+    height: 250px;
+    left: 100px;
+    width: 250px;
+    top: 1200px;
+    position: absolute;
+}
+.settings_img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 100px;
+    top: 900px;
+}
+hr{
+    border: dotted gray 8px;
+    border-bottom: none;
+    width: 50px;
+    margin-top: 100px;
+}
+.third_container{
+    background-color: #e5eaf5;
+    height: auto;
+    width: auto;
+}
+.skills{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 100px auto 0;
+    font-size: 3rem;
+    color: #a0d2eb;
+}
+.skill_row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    box-shadow: 10px 10px 10px #4c8ab1;
+    padding: 50px;
+    background-color: #6296b6;
+    border-radius: 10px 10px 0 100px;
+    font-size: 20px;
+    font-family:  'Julius Sans One', sans-serif;
+}
+.skills_img1{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 50px 0 0;
+}
+.skill_row2{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    box-shadow: -10px 10px 10px #4c8ab1;
+    padding: 50px;
+    background-color: #6296b6;
+    border-radius: 10px 10px 100px 0;
+    font-size: 20px;
+    font-family:  'Julius Sans One', sans-serif;
+}
+.skills_img2{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 0 50px 0 0;
+}
+.social-icons{
+    background-color: #494D5F;
+    margin: 120px auto 0 auto;
+    width: 100%;
+    position: absolute;
+    padding: 10px 0 10px 0;
+    color: white;
+    letter-spacing: 5px;
+}
+footer.social-icons i.fa{
+    font-size: 2rem;
+}
+.social-icons a{
+    margin-left: 15px;    
+}
+.fab{
+    width: 20px;
+    transition:all 0.3s ease-in-out;    
+}
+.fab:hover{
+    transform: translateY(-10px);
+}
+.social-icons i{
+    color: white;
+}
+footer .social-icons p.copyright{
+    margin-top: 30px;
+    font-size: 10px;
+}
+.nav:hover{
+   border-color: white;
+   transform:translateY(-10px);
+}
